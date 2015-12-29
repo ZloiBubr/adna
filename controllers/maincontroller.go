@@ -9,7 +9,11 @@ type MainController struct {
 }
 
 func (c *MainController) Get() {
-	c.Data["Website"] = "beego.me"
-	c.Data["Email"] = "astaxie@gmail.com"
+	beego.Info("MainController called!")
+
+	c.Data["Website"] = "127.0.0.1"
+	c.Data["WebsiteHTTPS"] = "127.0.0.1:8080/v1/main"
+	c.Data["Email"] = "siarhei.hladkou@gmail.com"
 	c.TplNames = "index.tpl"
+
 }

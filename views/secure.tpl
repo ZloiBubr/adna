@@ -10,9 +10,9 @@
 
 <body>
   <header>
-    <h1 class="logo">Welcome to Agile DNA</h1>
+    <h1 class="logo">Login page</h1>
     <div class="description">
-      Agile DNA is a complex IT project management solution
+      Please provide login information.
     </div>
   </header>
   <footer>
