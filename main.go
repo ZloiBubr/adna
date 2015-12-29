@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	_ "adna/routers"
+	"github.com/astaxie/beego"
+)
 
 func main() {
-	fmt.Printf("Hello, world.\n")
+	beego.Run()
 }
+
