@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "adna/routers"
+	_ "github.com/zloibubr/adna/routers"
 	"github.com/astaxie/beego"
 )
 

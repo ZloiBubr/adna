@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"github.com/astaxie/beego"
 
-	"adna/models"
+	"github.com/zloibubr/adna/models"
 )
 
 // Operations about Users
@@ -23,7 +23,7 @@ func (u *UserController) Post() {
 	json.Unmarshal(u.Ctx.Input.RequestBody, &user)
 	uid := models.AddUser(user)
 	u.Data["json"] = map[string]string{"uid": uid}
-	u.ServeJson()
+	u.ServeJSON()
 }
 
 // @Title Get
@@ -33,7 +33,7 @@ func (u *UserController) Post() {
 func (u *UserController) GetAll() {
 	users := models.GetAllUsers()
 	u.Data["json"] = users
-	u.ServeJson()
+	u.ServeJSON()
 }
 
 // @Title Get
@@ -52,7 +52,7 @@ func (u *UserController) Get() {
 			u.Data["json"] = user
 		}
 	}
-	u.ServeJson()
+	u.ServeJSON()
 }
 
 // @Title update
@@ -74,7 +74,7 @@ func (u *UserController) Put() {
 			u.Data["json"] = uu
 		}
 	}
-	u.ServeJson()
+	u.ServeJSON()
 }
 
 // @Title delete
@@ -87,7 +87,7 @@ func (u *UserController) Delete() {
 	uid := u.GetString(":uid")
 	models.DeleteUser(uid)
 	u.Data["json"] = "delete success!"
-	u.ServeJson()
+	u.ServeJSON()
 }
 
 // @Title login
@@ -105,7 +105,7 @@ func (u *UserController) Login() {
 	} else {
 		u.Data["json"] = "user not exist"
 	}
-	u.ServeJson()
+	u.ServeJSON()
 }
 
 // @Title logout
@@ -114,6 +114,6 @@ func (u *UserController) Login() {
 // @router /logout [get]
 func (u *UserController) Logout() {
 	u.Data["json"] = "logout success"
-	u.ServeJson()
+	u.ServeJSON()
 }
 

@@ -1,25 +1,40 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;adna&gt;">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../github.com" />
-      <root url="file://$PROJECT_DIR$/../.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../../../user" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../.DS_Store" />
     </CLASSES>
     <SOURCES />
     <excluded>
+      <root url="file://$PROJECT_DIR$/../go-example-003-testing-fasthttp/.idea" />
+      <root url="file://$PROJECT_DIR$/../../lib/pq/.git" />
+      <root url="file://$PROJECT_DIR$/../go-example-003-testing-fasthttp/.git" />
+      <root url="file://$PROJECT_DIR$/../../goinggo/tracelog/.git" />
+      <root url="file://$PROJECT_DIR$/../../beego/bee/.git" />
+      <root url="file://$PROJECT_DIR$/../../goinggo/beego-mgo/.idea" />
+      <root url="file://$PROJECT_DIR$/../../kelseyhightower/envconfig/.git" />
+      <root url="file://$PROJECT_DIR$/../../eknkc/amber/.git" />
+      <root url="file://$PROJECT_DIR$/../../smartystreets/assertions/.git" />
+      <root url="file://$PROJECT_DIR$/../../jtolds/gls/.git" />
+      <root url="file://$PROJECT_DIR$/../../beego/bee/testdata" />
+      <root url="file://$PROJECT_DIR$/../../smartystreets/goconvey/.git" />
+      <root url="file://$PROJECT_DIR$/../../astaxie/beego/.git" />
+      <root url="file://$PROJECT_DIR$/../../astaxie/beego/utils/testdata" />
+      <root url="file://$PROJECT_DIR$/../../howeyc/fsnotify/.git" />
+      <root url="file://$PROJECT_DIR$/../../valyala/fasthttp/.git" />
+      <root url="file://$PROJECT_DIR$/../go-example-001-autoswitch-to-https/.idea" />
       <root url="file://$PROJECT_DIR$" />
-      <root url="file://$PROJECT_DIR$/../github.com/zloibubr/go-example-003-testing-fasthttp/.idea" />
-      <root url="file://$PROJECT_DIR$/../github.com/zloibubr/go-example-003-testing-fasthttp/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/valyala/fasthttp/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/zloibubr/go-example-001-autoswitch-to-https/.idea" />
-      <root url="file://$PROJECT_DIR$/../github.com/astaxie/beego/.idea" />
-      <root url="file://$PROJECT_DIR$/../github.com/eknkc/amber/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/zloibubr/go-example-001-autoswitch-to-https/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/smartystreets/assertions/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/jtolds/gls/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/buaazp/fasthttprouter/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/smartystreets/goconvey/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/astaxie/beego/.git" />
-      <root url="file://$PROJECT_DIR$/../github.com/astaxie/beego/utils/testdata" />
+      <root url="file://$PROJECT_DIR$/../../andygrunwald/go-jira/.git" />
+      <root url="file://$PROJECT_DIR$/../../goinggo/beego-mgo/go-i18n/goi18n/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in/mgo.v2/.git" />
+      <root url="file://$PROJECT_DIR$/../go-example-001-autoswitch-to-https/.git" />
+      <root url="file://$PROJECT_DIR$/../../go-sql-driver/mysql/.git" />
+      <root url="file://$PROJECT_DIR$/../../goinggo/beego-mgo/.git" />
+      <root url="file://$PROJECT_DIR$/.idea" />
+      <root url="file://$PROJECT_DIR$/../../buaazp/fasthttprouter/.git" />
+      <root url="file://$PROJECT_DIR$/.git" />
     </excluded>
   </library>
 </component>

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"runtime"
 	"path/filepath"
-	_ "adna/routers"
+	_ "github.com/zloibubr/adna/routers"
 
 	"github.com/astaxie/beego"
 	. "github.com/smartystreets/goconvey/convey"
@@ -20,7 +20,7 @@ func init() {
 
 
 // TestMain is a sample to run an endpoint test
-func TestMain(t *testing.T) {
+func TestSpec(t *testing.T) {
 	r, _ := http.NewRequest("GET", "/", nil)
 	w := httptest.NewRecorder()
 	beego.BeeApp.Handlers.ServeHTTP(w, r)

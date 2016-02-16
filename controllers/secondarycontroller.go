@@ -13,6 +13,6 @@ func (c *SecondaryController) Get() {
 
 	c.Data["Website"] = "adna.com"
 	c.Data["Email"] = "siarhei.hladkou@gmail.com"
-	c.TplNames = "secure.tpl"
+	c.TplName = "secure.tpl"
 
 }

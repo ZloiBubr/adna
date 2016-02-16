@@ -4,8 +4,8 @@ import (
 	"github.com/astaxie/beego/context"
 	"github.com/astaxie/beego"
 
-	"adna/redirect"
-	"adna/controllers"
+	"github.com/zloibubr/adna/redirect"
+	"github.com/zloibubr/adna/controllers"
 )
 
 func init() {

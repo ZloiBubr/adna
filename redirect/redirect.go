@@ -17,8 +17,8 @@ var (
 const httpsConfigKey = "https_base"
 
 func Https(ctx *context.Context) {
-    if ctx.Input.Request.TLS == nil {
-        ctx.Redirect(http.StatusTemporaryRedirect, https_baseUrl+ctx.Input.Request.URL.String())
+    if ctx.Input.Context.Request.TLS == nil {
+        ctx.Redirect(http.StatusTemporaryRedirect, https_baseUrl+ctx.Input.Context.Request.URL.String())
     }
 }
 
